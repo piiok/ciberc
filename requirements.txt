@@ -1,4 +1,7 @@
 Django==2.2
 django-environ==0.4.5
+django-mysql==3.11.1
+mysqlclient==2.0.3
 pytz==2021.1
+pyxlsb==1.0.8
 sqlparse==0.4.1
