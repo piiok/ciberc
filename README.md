@@ -43,4 +43,4 @@ python manage.py createsuperuser
 ```
 And type a username, email and password. Ready? Now go to localhost or your domain and introduce your username and password. 
 <br/><br/>
-I maked for you a excel of test in the project root. You can test the functionality with it. Its name is _**[/excel_test.xlsb](excel_test.xlsb)**_   
+I maked for you a excel of test in the project root. You can test the functionality with it. Its name is _**[excel_test.xlsb](excel_test.xlsb)**_   
