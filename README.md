@@ -14,7 +14,8 @@ Create a file with _.env_ name in the main folder
 ├─── inventory <br/>
 ├─── main <br/>
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─── _**.env**_ <br/>
-└─── uploads <br/>
+├─── uploads <br/>
+└─── excel_test.xlsb <br/>
 
 This file must to have DEBUG, SECRET_KEY and DATABASE_URL like this.
 ```
@@ -35,3 +36,11 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+## Test
+You need create a super user.
+```
+python manage.py createsuperuser
+```
+And type a username, email and password. Ready? Now go to localhost or your domain and introduce your username and password. 
+<br/><br/>
+I maked for you a excel of test in the project root. You can test the functionality with it. Its name is _**excel_test.xlsb**_ 
